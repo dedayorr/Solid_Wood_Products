@@ -1,0 +1,47 @@
+.hero-background {
+  height: 100vh;
+  background-image: url("../../assets/images/BG_Wallpaper.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+/* .hero_bg { */
+  /* height: 286px;
+  background-image: url("../../assets/images/hero_image.png");
+  background-size:contain; */
+  /* background-position: center; */
+  /* position: sticky; */
+  /* top: 0; */
+  /* background-repeat: no-repeat; */
+  /* width: 70%; */
+/* } */
+
+/* Small screens (mobile) */
+@media (max-width: 640px) {
+  .hero-background {
+    background-position: top;
+    background-size: cover;
+  }
+}
+
+/* Medium screens (tablet) */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .hero-background {
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+/* Large screens (desktop and up) */
+@media (min-width: 1025px) {
+  .hero-background {
+    height: 100vh;
+    background-image: url("../../assets/images/BG_desktop.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+}

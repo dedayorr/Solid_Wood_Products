@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import './styles/fonts.css';
+
+body {
+  font-family: 'KyivType Sans', sans-serif;
+} */
